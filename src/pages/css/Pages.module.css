@@ -1,5 +1,10 @@
 .titleTrending {
   margin-left: 10px;
+  transition: all 0.3s;
+}
+
+.titleTrending:hover {
+  color: white;
 }
 
 .moviesTrandingList {
@@ -22,11 +27,16 @@
 }
 
 .inputSearch {
+  font-family: 'Pacifico', cursive;
   padding: 10px;
   border: 2px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
   width: 300px;
+}
+
+.inputSearch:focus {
+  border: 2px solid #86008d;
 }
 
 .moviesSearchList {
@@ -139,5 +149,5 @@
 .dateComment {
   font-size: 14px;
   font-weight: 500;
-  color: #8300a4d9;
+  color: #000000d9;
 }
