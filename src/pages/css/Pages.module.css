@@ -44,7 +44,7 @@
 }
 
 .movieSearchLink:hover {
-  color: #86008d;
+  color: #ffffff;
 }
 
 .movieDetailWrapper {
@@ -88,7 +88,7 @@
 }
 
 .navlink:hover {
-  color: #86008d;
+  color: #ffffff;
   text-decoration: underline;
 }
 
@@ -139,4 +139,5 @@
 .dateComment {
   font-size: 14px;
   font-weight: 500;
+  color: #8300a4d9;
 }

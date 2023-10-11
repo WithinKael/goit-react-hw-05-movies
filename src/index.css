@@ -7,6 +7,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/summer-background-abstract-background-wallpaper-use-for-presentation_HDDYoJOhMg_thumb.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  background-color: rgb(255, 255, 255);
+}
+
+.cursed {
+  background-image: url('https://i.pinimg.com/originals/1d/55/45/1d5545b64db0034165c3e83fdbdc813c.gif');
+  background-size: 16.5%;
+  background-position: center;
+  position: absolute;
+  transform: 'translate(-50%, -50%)';
+  left: 39%;
+  top: -17%;
+  width: 300px;
+  height: 301px;
+  background-repeat: no-repeat;
 }
 
 code {

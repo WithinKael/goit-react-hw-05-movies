@@ -4,7 +4,7 @@ import { Link, useLocation, useSearchParams } from 'react-router-dom';
 import { getSearch } from '../api';
 import { useEffect } from 'react';
 
-export const Movies = () => {
+const Movies = () => {
   const [searchedMovie, setSearchedMovie] = useState([]);
   const [params, setSearchParams] = useSearchParams();
   const location = useLocation();

@@ -17,6 +17,7 @@ export const App = () => {
           <NavLink className="nav-link" to="/movies">
             Movies
           </NavLink>
+          <div className='cursed'></div>
         </nav>
       </header>
       <main>
